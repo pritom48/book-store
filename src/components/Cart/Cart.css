@@ -3,6 +3,17 @@
     top: 0;
 }
 
+.cart-style button{
+    background-color: aqua;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.cart-style button:hover{
+    background-color: aquamarine;
+}
+
 .cart-title{
     text-align: center;
 }

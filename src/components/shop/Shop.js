@@ -20,6 +20,10 @@ const Shop = () => {
         setcart(newCart)
     }
 
+    const hendleChooseBtn = () => {
+        setcart([])
+    }
+
     return (
         <div class="container">
             <div class="row">
@@ -34,7 +38,10 @@ const Shop = () => {
                     }
                 </div>
                 <div class="col-md-3 cart-container">
-                    <Cart cart={cart}></Cart>
+                    <Cart
+                        cart={cart}
+                        handleChooseBtn={hendleChooseBtn}
+                    ></Cart>
                 </div>
             </div>
         </div>
