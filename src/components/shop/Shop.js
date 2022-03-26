@@ -12,6 +12,11 @@ const Shop = () => {
             .then(data => setbooks(data))
     }, [])
 
+
+    const handleAddToCart = (books) => {
+        console.log(books)
+    }
+
     return (
         <div class="container">
             <div class="row">
@@ -21,6 +26,7 @@ const Shop = () => {
                         books.map(book => (<Book
                             key={book.id}
                             book={book}
+                            handleAddToCart={handleAddToCart}
                         ></Book>))
                     }
                 </div>

@@ -1,6 +1,9 @@
 .book{
     width: 200px;
     height: 410px;
+    border: 2px solid slategray;
+    border-radius: 10px;
+    position: relative;
 }
 
 .book-info{
@@ -8,6 +11,22 @@
 }
 
 .book img{
-    width: 246px;
+    width: 190px;
     height: 286px;
+}
+
+.btn-cart{
+    width: 100%;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0;
+    background-color: aqua;
+}
+
+.btn-cart:hover{
+    background-color: aquamarine;
+}
+
+.btn-cart p{
+    padding-top: 3px;
 }
