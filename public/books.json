@@ -1,0 +1,62 @@
+[
+    {
+        "id": "1",
+        "name": "18 PINK BOOK",
+        "price": "20",
+        "img": "https://i.pinimg.com/236x/70/ed/0a/70ed0a479a08276fb00dc1153ee77a33.jpg"
+    },
+    {
+        "id": "2",
+        "name": "BRING OUT YOUR DEAD",
+        "price": "22",
+        "img": "https://www.subtraction.com/wp-content/uploads/2015/03/2015-03-23-random-book-covers-03.png"
+    },
+    {
+        "id": "3",
+        "name": "PLENTY",
+        "price": "25",
+        "img": "https://elinacohen.com/wp-content/uploads/2016/05/978-0-307-34733-6_1000.jpg"
+    },
+    {
+        "id": "4",
+        "name": "PHONEIX",
+        "price": "15",
+        "img": "https://placeit-assets0.s3-accelerate.amazonaws.com/custom-pages/book-cover-maker/book-cover-generator-for-a-best-seller-for-young-adults-533d-1.png"
+    },
+    {
+        "id": "5",
+        "name": "RED FOX",
+        "price": "18",
+        "img": "https://bookcover4u.com/pro/Children-book-cover-design-red-little-winter-fox-book-cover-illustration-animal-cartoon-childhood-snow-fantasy-children-story-covers-fairytale-N1556776432B.jpg"
+    },
+    {
+        "id": "6",
+        "name": "TOM BROKAW",
+        "price": "32",
+        "img": "https://acdbookcoverdesign.com/wp-content/uploads/2016/02/the-greatest-generation.jpg"
+    },
+    {
+        "id": "7",
+        "name": "TATYANA",
+        "price": "35",
+        "img": "https://www.bridgemanimages.com/media/images/12102887dac549fbf9d8300bea34f0c455bf51af.jpg"
+    },
+    {
+        "id": "8",
+        "name": "DONAL RAYAN",
+        "price": "10",
+        "img": "https://images.squarespace-cdn.com/content/v1/539f6fe5e4b06eb49782ed37/1569252543905-V6K6Z01ZY48YL5N298A9/Donal+All+We+Shall+Know.jpg?format=2500w"
+    },
+    {
+        "id": "9",
+        "name": "MY BOOK COVER",
+        "price": "30",
+        "img": "https://edit.org/images/cat/book-covers-big-2019101610.jpg"
+    },
+    {
+        "id": "10",
+        "name": "ELECTRO BOY",
+        "price": "25",
+        "img": "https://acdbookcoverdesign.com/wp-content/uploads/2016/02/electroboy1.jpg"
+    }
+]

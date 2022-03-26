@@ -1,0 +1,13 @@
+.book{
+    width: 200px;
+    height: 410px;
+}
+
+.book-info{
+    text-align: center;
+}
+
+.book img{
+    width: 246px;
+    height: 286px;
+}
