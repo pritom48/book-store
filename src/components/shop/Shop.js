@@ -13,8 +13,8 @@ const Shop = () => {
     }, [])
 
 
-    const handleAddToCart = (books) => {
-        console.log(books)
+    const handleAddToCart = (book) => {
+        console.log(book)
     }
 
     return (
