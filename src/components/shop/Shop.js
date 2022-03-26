@@ -7,6 +7,7 @@ import './Shop.css'
 const Shop = () => {
     const [books, setbooks] = useState([]);
     const [cart, setcart] = useState([]);
+    const [random, setRandom] = useState([]);
 
     useEffect(() => {
         fetch("books.json")
@@ -18,6 +19,12 @@ const Shop = () => {
     const handleAddToCart = (book) => {
         const newCart = [...cart, book];
         setcart(newCart)
+    }
+
+    const handleChooseOneBtn = (cart) => {
+        const chooseRandom = [...random, cart]
+        setRandom(chooseRandom[Math.floor(Math.random() * random.length)])
+        console.log(random)
     }
 
     const hendleChooseBtn = () => {
@@ -38,10 +45,16 @@ const Shop = () => {
                     }
                 </div>
                 <div class="col-md-3 cart-container">
+
                     <Cart
                         cart={cart}
                         handleChooseBtn={hendleChooseBtn}
+                        handleChooseOneBtn={handleChooseOneBtn}
+                        chooseRandom={random}
+
                     ></Cart>
+
+
                 </div>
             </div>
         </div>
